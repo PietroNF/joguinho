@@ -3,13 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+.pontuacao p{
+  color:#cedded;
+}
+.detalhes p {
+  color: #cedded;
+}
+
+
 body {
   height: 100vh;
-  background: linear-gradient(62deg, rgba(255,204,0,1) 26%, rgba(189,180,180,1) 100%);
+  background: #22272e;
 }
 .container {
   width: 45%;
-  background-color: #fff;
+  background-color: #22272e;
+  border: 1px solid #ccc;
   padding: 40px 30px;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -29,7 +38,7 @@ body {
   justify-content: space-between;
 }
 .escolhas button {
-  background-color: #ffd51b;
+  background-color: #46954a;
   color: #000;
   border: none;
   font-size: 50px;
